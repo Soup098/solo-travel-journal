@@ -1,5 +1,6 @@
 :root{
     font-family: "Inter", serif;
+    background-color: rgb(204, 204, 204);
     max-width: 1080px;
     margin: 0 auto;
     padding: 0;
@@ -9,6 +10,8 @@
 }
 body{
     margin: 0;
+    box-shadow: 0px 0px 2px gray;
+    background-color: whitesmoke;
 }
 .main-content{
     width: 100vw;
@@ -42,17 +45,21 @@ header > h1{
 /* Card Styles */
 /* *********** */
 section{
-    border: 2px dotted red;
-    margin: 20px auto;
+    box-shadow: 1px 1px 4px gray;
+    padding: 5px 30px 5px 30px;
+    border-radius: 10px;
+    margin: 25px auto;
     max-width: 720px;
     display: flex;
     align-items: center;
 }
 section > img{
-    width: 165px;
-    height: 220px;
+    box-shadow: 1px 1px 4px gray;
     margin-right: 20px;
     border-radius: 10px;
+}
+.info-section{
+    padding: 40px 0 40px 0;
 }
 .country-section{
     display: flex;
@@ -65,4 +72,16 @@ section > img{
     font-weight: 300;
     font-size: 1rem;
     margin-right: 20px;
+}
+.specific-location{
+    margin: 0 0 20px 0;
+    font-size: 2rem;
+}
+.dates{
+    margin: 0;
+    font-weight: 400;
+    font-size: .9rem;
+}
+.description{
+    font-size: 1.1rem;
 }
