@@ -10,3 +10,16 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
+
+
+// requirements:
+// 
+// data array in separate JS file
+// --> title, location, google maps link, start date, end date, description, image URL
+// use .map() and props
+// styled and polished
+// 
+// components:
+// 
+// header
+// location card

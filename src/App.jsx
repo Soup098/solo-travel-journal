@@ -1,13 +1,17 @@
 import { useState } from 'react'
 // ***********************************************
+import Header from './components/Header'
+import Card from './components/Card'
 
 export default function App() {
 
   return (
-    <>
-      <h1>HELLO WORLD</h1>
-    </>
+    <div className="main-content">
+      <Header />
+      <Card />
+    </div>
   )
 }
 
-// export default App
+
+
